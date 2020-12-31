@@ -1,0 +1,37 @@
+#cenario{
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0;
+}
+#quadrado{
+    width: 30%;
+    height: 30%;
+    border: solid 3px black;
+    float:left;
+}
+img{
+    width: 100%;
+}
+#mensagem{
+    font-size: 100px;
+    color: rgb(187, 34, 60);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#velha{
+    width: 15%; 
+    top: 10%;
+    position: absolute;
+    display: inline-block;
+}
+@media screen and (max-width: 800px){
+    #velha{
+        position: relative;
+        width: 40%;
+    }
+}
+#jogador{
+    width: 120px;
+}
